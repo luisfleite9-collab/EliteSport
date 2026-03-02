@@ -94,7 +94,7 @@
                 <p class="titulo">Nike Air Society</p>
                 <p class="preco-antigo">R$499,99</p>
                 <p class="preco">R$299,99</p>
-                <button class="btn-neon btn-small">Adicionar</button>
+                <a href="#carrinho-section" class="btn-neon btn-small">Adicionar</a>
             </div>
 
             <div class="card">
@@ -153,6 +153,109 @@
                 <button class="btn-neon btn-small">Adicionar</button>
             </div>
         </main>
+        <section id="carrinho-section" class="full-section" style="background-color: #0a0a0a;">
+        <div class="form-box" style="max-width: 600px;">
+            <h2 style="color: #7CFC00;">Seu Carrinho</h2>
+            <div class="item-carrinho">
+                <img src="imagens/chuteiras nike air society.jpg" alt="Produto" width="80">
+                <div class="item-info">
+                    <p><strong>Nike Air Society - Rosa</strong></p>
+                    <p>Tamanho: 41</p>
+                    <p class="preco">R$ 299,99</p>
+                </div>
+            </div>
+            <div class="resumo-carrinho">
+                <p>Subtotal: R$ 299,99</p>
+                <p>Frete: <span style="color: #7CFC00;">Grátis</span></p>
+                <hr style="border: 1px solid #333; margin: 10px 0;">
+                <p style="font-size: 1.5rem; font-weight: 900;">Total: R$ 299,99</p>
+            </div>
+            <a href="#pagamento-section" class="btn-neon btn-large">FINALIZAR COMPRA</a>
+        </div>
+    </section>
+
+    <section id="pagamento-section" class="full-section">
+        <div class="form-box">
+            <h2>Forma de Pagamento</h2>
+            <div class="metodos-pagamento">
+                <a href="#pix-section" class="metodo-card-link">
+                    <div class="metodo-card pix-destaque">
+                        <span class="badge">RECOMENDADO</span>
+                        <p>Pagar com <strong>PIX</strong></p>
+                        <small>Aprovação instantânea</small>
+                    </div>
+                </a>
+                <a href="#cartao-section" class="metodo-card-link">
+                    <div class="metodo-card">
+                        <p>Pagar com <strong>CARTÃO DE CRÉDITO</strong></p>
+                        <small>Até 12x sem juros</small>
+                    </div>
+                </a>
+            </div>
+            <div class="switch-link">
+                <a href="#carrinho-section">← Voltar ao carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cartao-section" class="full-section" style="background-color: #050505;">
+        <div class="form-box">
+            <h2 style="color: #7CFC00;">Dados do Cartão</h2>
+            <div class="input-group">
+                <label>Número do Cartão</label>
+                <input type="text" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="input-group">
+                <label>Nome Impresso</label>
+                <input type="text" placeholder="NOME COMO NO CARTÃO">
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <div class="input-group" style="flex: 2;">
+                    <label>Validade</label>
+                    <input type="text" placeholder="MM/AA">
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label>CVV</label>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+            <div class="input-group">
+                <label>Parcelas</label>
+                <select style="width: 100%; padding: 12px; background: #111; color: white; border: 1px solid #333; border-radius: 4px;">
+                    <option>1x de R$ 299,99 sem juros</option>
+                    <option>2x de R$ 149,99 sem juros</option>
+                    <option>3x de R$ 99,99 sem juros</option>
+                </select>
+            </div>
+            <a href="#confirmacao-section" class="btn-neon btn-large">CONFIRMAR PAGAMENTO</a>
+        </div>
+    </section>
+
+    <section id="pix-section" class="full-section" style="background-color: #111;">
+        <div class="form-box text-center">
+            <h2 style="color: #7CFC00;">Pagamento via PIX</h2>
+            <p style="margin-bottom: 20px;">Escaneie o código abaixo para pagar:</p>
+            <div class="qr-container">
+                <img src="3377601-linha-icone-para-codigo-qr-vetor.jpg" alt="QR Code Pix" width="200">
+            </div>
+            <div class="pix-codigo-copia">
+                <input type="text" value="00020126580014BR.GOV.BCB.PIX..." readonly>
+                <button class="btn-neon btn-small">Copiar Código</button>
+            </div>
+            <a href="#confirmacao-section" class="btn-neon btn-large" style="margin-top: 20px;">JÁ REALIZEI O PAGAMENTO</a>
+        </div>
+    </section>
+
+    <section id="confirmacao-section" class="full-section">
+        <div class="form-box success-box">
+            <div class="check-icon">✓</div>
+            <h2 style="color: #7CFC00;">Pedido Realizado!</h2>
+            <div class="order-number">
+                <p>NÚMERO DO PEDIDO:</p>
+                <h3>#ES-20268841</h3>
+            </div>
+            <a href="#hero-section" class="btn-neon btn-large">VOLTAR AO INÍCIO</a>
+        </div>
     </section>
 
 </body>
