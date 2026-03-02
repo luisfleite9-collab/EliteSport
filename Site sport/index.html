@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Sport - Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-bar">
+        <div></div>
+        <a href="#hero-section" class="logo"><span>ELITE</span> SPORT</a>
+        <div class="header-right">
+            <a href="#login-section" class="btn-neon btn-small">LOGIN</a>
+            <a href="#catalogo-section" class="btn-neon btn-small">LOJA</a>
+        </div>
+    </header>
+
+    <section id="login-section" class="full-section">
+        <div class="form-box">
+            <h2>Acesse sua conta</h2>
+            <div class="input-group">
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="input-group">
+                <label>Senha</label>
+                <input type="password" placeholder="Digite sua senha">
+            </div>
+            <div class="login-options">
+                <label class="check-label"><input type="checkbox"> Lembrar de mim</label>
+                <a href="#" class="link-neon">Esqueceu a senha?</a>
+            </div>
+            <a href="#hero-section" class="btn-neon btn-large">ENTRAR</a>
+            <div class="switch-link">
+                <p>Não tem uma conta? <a href="#cadastro-section">Cadastre-se</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cadastro-section" class="full-section" style="background-color: #111;">
+        <div class="form-box">
+            <h2 style="color: #7CFC00;">Crie sua conta</h2>
+            <div class="input-group">
+                <label>Nome Completo</label>
+                <input type="text" placeholder="Nome Sobrenome">
+            </div>
+            <div class="input-group">
+                <label>E-mail</label>
+                <input type="email" placeholder="exemplo@email.com">
+            </div>
+            <div class="input-group">
+                <label>Senha</label>
+                <input type="password" placeholder="Mínimo 6 caracteres">
+            </div>
+            <div class="input-group">
+                <label>CEP</label>
+                <input type="text" placeholder="00000-000" maxlength="9" inputmode="numeric">
+            </div>
+            <div class="input-group">
+                <label>Endereço</label>
+                <input type="text" placeholder="Rua e número da casa">
+            </div>
+            
+            <div class="form-footer">
+                <a href="#hero-section" class="btn-neon btn-large">CADASTRAR</a>
+                <div class="switch-link">
+                    <p>Já é membro? <a href="#login-section">Fazer Login</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero-section" class="hero-fullscreen">
+        <div class="hero-text-box">
+            <h1><span>ELITE</span> SPORT</h1>
+            <p>A PERFORMANCE QUE VOCÊ BUSCA ESTÁ AQUI</p>
+            <a href="#catalogo-section" class="btn-neon btn-large" style="max-width: 300px;">IR PARA A LOJA</a>
+        </div>
+        <div class="hero-image-box">
+            <div class="gradient-overlay"></div>
+            <img src="imagens/adidas-Tony-Kroos-Real-Madrid.jpg" alt="Destaque Atleta">
+        </div>
+    </section>
+
+    <section id="catalogo-section">
+        <h2 class="titulo-catalogo">Nossas Chuteiras</h2>
+
+        <main class="container-grid">
+            <div class="card">
+                <img src="imagens/chuteiras nike air society.jpg" alt="Nike Air Society Rosa">
+                <p class="titulo">Nike Air Society</p>
+                <p class="preco-antigo">R$499,99</p>
+                <p class="preco">R$299,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteira nike air society 2.webp" alt="Nike Air Society 2">
+                <p class="titulo">Nike Air Society 2</p>
+                <p class="preco-antigo">R$499,99</p>
+                <p class="preco">R$299,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras nike zomm campo.avif" alt="Nike Zoom Campo">
+                <p class="titulo">Nike Zoom Campo</p>
+                <p class="preco-antigo">R$899,99</p>
+                <p class="preco">R$699,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras puma campo.jpg" alt="Puma Campo Azul">
+                <p class="titulo">Puma Campo Azul</p>
+                <p class="preco-antigo">R$699,99</p>
+                <p class="preco">R$499,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras puma campo.webp" alt="Puma Campo Pro">
+                <p class="titulo">Puma Campo Pro</p>
+                <p class="preco-antigo">R$799,99</p>
+                <p class="preco">R$599,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras new balance campo.webp" alt="New Balance">
+                <p class="titulo">New Balance Campo</p>
+                <p class="preco-antigo">R$499,99</p>
+                <p class="preco">R$299,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras adidas society.jpg" alt="Adidas Society">
+                <p class="titulo">Adidas Society</p>
+                <p class="preco-antigo">R$699,99</p>
+                <p class="preco">R$599,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/chuteiras nike mercurial campo.webp" alt="Nike Mercurial">
+                <p class="titulo">Nike Mercurial Pro</p>
+                <p class="preco-antigo">R$699,99</p>
+                <p class="preco">R$499,99</p>
+                <button class="btn-neon btn-small">Adicionar</button>
+            </div>
+        </main>
+    </section>
+
+</body>
+</html>
