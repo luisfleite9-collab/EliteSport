@@ -65,6 +65,7 @@ body { background-color: #000; color: white; font-family: 'Montserrat', sans-ser
 .card img { width: 100%; height: 180px; object-fit: contain; margin-bottom: 15px; }
 .preco-antigo { text-decoration: line-through; color: #555; font-size: 12px; }
 .preco { color: #7CFC00; font-size: 1.5rem; font-weight: 900; margin-bottom: 10px; }
+<<<<<<< HEAD
 /* ESTILOS DO CARRINHO */
 .item-carrinho {
     display: flex;
@@ -217,6 +218,8 @@ section {
     color: #7CFC00;
     letter-spacing: 2px;
 }
+=======
+>>>>>>> 7f74b657d260da6131370a764b21367ac8273c72
 /* Estilo para links que englobam os cards de pagamento */
 .metodo-card-link {
     text-decoration: none;
