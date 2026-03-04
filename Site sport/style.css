@@ -259,3 +259,16 @@ section {
 .full-section {
     scroll-margin-top: 80px; /* Evita que o header cubra o título da seção */
 }
+
+.link-neon {
+    color: #7CFC00; /* verde neon */
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-neon:hover {
+    color: #65cc00;
+    text-decoration: underline;
+}
